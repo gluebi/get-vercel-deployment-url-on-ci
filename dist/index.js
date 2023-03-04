@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import fs from 'node:fs';
 const projectId = process.env.VERCEL_PROJECT_ID;
 const teamId = process.env.VERCEL_TEAM_ID;

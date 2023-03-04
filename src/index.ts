@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fs from 'node:fs'
 
 const projectId = process.env.VERCEL_PROJECT_ID
