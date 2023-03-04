@@ -1,6 +1,6 @@
 {
   "name": "get-vercel-deployment-url-on-ci",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Can be run on CI to write vercel deployment url to file",
   "repository": "https://github.com/gluebi/get-vercel-deployment-url-on-ci.git",
   "author": "Oliver Pietsch <kontakt@oliver-pietsch.de>",
