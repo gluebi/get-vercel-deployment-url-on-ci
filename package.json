@@ -1,0 +1,28 @@
+{
+  "name": "get-vercel-deployment-url-on-ci",
+  "version": "1.0.0",
+  "description": "Can be run on CI to write vercel deployment url to file",
+  "repository": "https://github.com/gluebi/get-vercel-deployment-url-on-ci.git",
+  "author": "Oliver Pietsch <kontakt@oliver-pietsch.de>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "get-vercel-deployment-url-on-ci": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --outDir ./dist/",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "ci": "rm -rf node_modules && yarn install --frozen-lockfile"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5"
+  }
+}

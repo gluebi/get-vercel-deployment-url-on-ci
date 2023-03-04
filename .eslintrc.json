@@ -1,0 +1,13 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "quotes": [
+      "error", "single"],
+    "no-extra-semi": "error"
+  }
+}
